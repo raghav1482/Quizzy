@@ -1,0 +1,209 @@
+/* HomePageStyles.css */
+
+body {
+    margin: 0;
+    /* background: linear-gradient(45deg, #3498db, #2ecc71); */
+    background-size: 200% 200%;
+    background: rgb(0,189,255);
+background: linear-gradient(90deg, rgba(0,189,255,0.2190126050420168) 0%, rgba(0,152,250,0.2190126050420168) 28%, rgba(41,0,246,0.09576330532212884) 61%, rgba(0,203,250,0.09576330532212884) 73%, rgba(0,87,255,0.1966036414565826) 100%);
+  }
+
+  a{
+    text-decoration: none !important;
+  }
+  
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    color: rgb(0, 115, 255);
+    font-weight: 700;
+  }
+  .hero{
+    max-width: 50%;
+    text-align: justify;
+    margin: 13% 0 13% 13%;
+  }
+
+  .hero-img{
+    width: 420px;
+    height: 450px;
+    margin-top:5% ;
+  }
+
+  .subtitle {
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-weight: 700;
+  }
+  
+  .start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color:rgb(0, 115, 255) ;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .start-button:hover {
+    background-color: rgb(0, 60, 120);
+    color: white;
+    
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    padding-inline: 10%;
+    display: flex;
+    background-color: rgba(52, 73, 94, 0.8);
+    z-index: 999;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .test-div{
+    width: 60%;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 30px;
+    color: black;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .test-div h3{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding: 10px;
+  }
+
+  .ques{
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    text-align: left;
+  }
+  .choice{
+    background-color: rgb(0, 115, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px;
+    text-align: justify;
+  }
+  .choice:hover{
+    background-color: rgb(16, 122, 251);
+  }
+  .nxt{
+    margin-left: 80%;
+  }
+  .stop-w-con{
+    width: 100%;
+    background-color: white;
+    padding: 5% 10%;
+  }
+  .stop-wasting{
+    margin: 40px auto;
+    width: 80%;
+    color: black;
+    background-color: rgb(229, 241, 255);
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    margin-bottom: 200px;
+  }
+  .stop-wasting h3{
+    font-size: 3.0rem;
+  }
+  .stop-wasting p{
+    font-size: 1.0rem;
+    color: rgba(0, 0, 0, 0.553);
+  }
+
+
+  .review-card{
+    background-color: rgba(216, 219, 221, 0.552);
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .review-card img{
+    width: 50px;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  /* AboutUs */
+
+.about-us-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  /* footer */
+
+  .footer{
+    background-color: black;
+    width: 100%;
+    padding: 20px 13%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer .footer-links{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-column{
+    margin: 20px;
+    text-align: justify;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+  }
